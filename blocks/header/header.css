@@ -1,0 +1,39 @@
+.header {
+  max-width: calc(100% - 96px);
+	max-height: 52px;
+  display: flex;
+  justify-content:space-between;
+  margin: 28px auto 56px;
+}
+@media (max-width: 1024px) {
+  .header {
+    max-width: calc(100% - 96px);
+		max-height: 52px;
+    margin: 28px auto 48px;
+  }
+}
+@media (max-width: 768px) {
+  .header {
+    max-width: calc(100% - 48px);
+		max-height: 52px;
+    margin: 28px auto 48px;
+  }
+}
+@media (max-width: 400px) {
+  .header {
+    margin: 16px auto 48px;
+    max-width: calc(100% - 32px);
+		max-height: 42px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,49 @@
+.place {
+	display: grid;
+	grid-template-columns: 1fr 1.1fr ;
+	margin: 0 auto 80px;
+  grid-gap: 48px 40px;
+}
+@media (max-width: 1024px) {
+  .place {
+    grid-gap: 48px 32px;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 768px) {
+  .place {
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-gap: 40px 28px;
+  }
+}
+@media (max-width: 400px) {
+  .place {
+    grid-template-columns: 1fr;
+    grid-gap: 32px 0;
+  }
+}
+
+.place:last-child {
+  margin-bottom: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
