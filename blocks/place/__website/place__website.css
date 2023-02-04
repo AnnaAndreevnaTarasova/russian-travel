@@ -1,4 +1,11 @@
 .place__website {
   align-self: end;
-  margin: 0 16px;
+  margin: 0;
+}
+
+@media (max-width: 400px) {
+  .place__website {
+    align-self: end;
+    margin: 0 16px;
+  }
 }

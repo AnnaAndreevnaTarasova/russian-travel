@@ -1,35 +1,24 @@
-.cover{
- max-width: calc(100% - 96px);
- margin: 0 auto 92px;
+.cover {
+  max-width: calc(100% - 96px);
+  margin: 0 auto 92px;
 }
 @media (max-width: 1024px) {
-	.cover {
-		max-width: 100%;
-	}
+  .cover {
+    max-width: 1024px;
+    min-height: 640px;
+  }
 }
 @media (max-width: 768px) {
-	.cover {
-		max-width: 100%;
-		margin: 0 auto 88px;
-	}
+  .cover {
+    min-height: 480px;
+    max-width: 100%;
+    margin-bottom: 88px;
+  }
 }
 @media (max-width: 400px) {
-	.cover {
-		max-width: 100%;
-		margin: 0 auto 64px;
-	}
+  .cover {
+    max-width: 100%;
+    min-height: 200px;
+    margin-bottom: 64px;
+  }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

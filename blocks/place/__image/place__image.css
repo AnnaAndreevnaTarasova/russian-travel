@@ -1,5 +1,5 @@
 .place__image {
-	max-width: 460px;
+  max-width: 460px;
   display: block;
 }
 @media (max-width: 1024px) {
@@ -11,11 +11,5 @@
 @media (max-width: 768px) {
   .place__image {
     max-width: 340px;
-    width: 100%;
-  }
-}
-@media (max-width: 400px) {
-  .place__image {
-    max-width: 100%;
   }
 }

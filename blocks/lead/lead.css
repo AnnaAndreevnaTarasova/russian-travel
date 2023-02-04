@@ -1,5 +1,5 @@
 .lead {
-	display: flex;
+  display: flex;
   flex-direction: column;
   align-items: center;
   max-width: calc(100% - 296px);
@@ -13,21 +13,11 @@
 @media (max-width: 768px) {
   .lead {
     max-width: 100%;
-		margin: 0 auto 88px;
+    margin: 0 auto 88px;
   }
 }
 @media (max-width: 400px) {
   .lead {
-    max-width: 100%;
-		margin: 0 auto 64px;
+    margin: 0 auto 64px;
   }
 }
-
-
-
-
-
-
-
-
-

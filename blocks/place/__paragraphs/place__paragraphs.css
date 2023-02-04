@@ -4,18 +4,19 @@
   max-width: 484px;
 }
 @media (max-width: 1024px) {
-	.place__paragraphs {
-		max-width: 456px;
-	}
+  .place__paragraphs {
+    max-width: 456px;
+  }
 }
 @media (max-width: 768px) {
-	.place__paragraphs {
-		max-width: 352px;
-	}
+  .place__paragraphs {
+    max-width: 352px;
+  }
 }
+
 @media (max-width: 400px) {
-	.place__paragraphs {
-		max-width: calc(100% - 32px);
+  .place__paragraphs {
+    max-width: calc(100% - 32px);
     margin: 0 16px 0;
-	}
+  }
 }
