@@ -13,6 +13,11 @@
     max-width: 352px;
   }
 }
+@media (min-width: 401px) and (max-width: 460px) {
+  .place__paragraphs {
+    max-width: 150px;
+  }
+}
 
 @media (max-width: 400px) {
   .place__paragraphs {

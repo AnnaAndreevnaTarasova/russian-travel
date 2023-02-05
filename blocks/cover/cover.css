@@ -15,7 +15,6 @@
 }
 @media (max-width: 400px) {
   .cover {
-    max-width: 100%;
     margin-bottom: 64px;
   }
 }
